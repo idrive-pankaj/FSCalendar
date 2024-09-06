@@ -243,6 +243,11 @@ IB_DESIGNABLE
 @interface FSCalendar : UIView
 
 /**
+ * Sample demo field added by Pankaj
+ */
+@property (strong, nonatomic) NSString *username;
+
+/**
  * The timezone of the calendar. `defaultTimeZone` by default.
  */
 @property (strong, nonatomic) NSTimeZone *timeZone;
